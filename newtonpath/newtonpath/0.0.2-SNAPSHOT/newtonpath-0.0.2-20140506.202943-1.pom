@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>newtonpath</groupId>
+	<artifactId>newtonpath</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
+	<name>Newton Paths</name>
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+	</build>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>staging.repo.snapshots</id>
+			<name>Staging Repository - Snapshots</name>
+			<url>file:///C:/dev/git/snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>staging.repo.releases</id>
+			<name>Staging Repository - Releases</name>
+			<url>file:///C:/dev/git/releases/</url>
+		</repository>
+	</distributionManagement>
+</project>
